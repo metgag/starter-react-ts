@@ -3,8 +3,8 @@ import { createRoot } from "react-dom/client";
 
 import { px2remTransformer, StyleProvider } from "@ant-design/cssinjs";
 import { ConfigProvider } from "antd";
-import "./index.css";
 import "antd/dist/reset.css";
+import "./index.css";
 
 import App from "./App.tsx";
 
